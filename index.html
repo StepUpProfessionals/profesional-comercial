@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Andrés Felipe Restrepo — Médico Internista</title>
+  <meta name="description" content="Atención médica integral para adultos con un enfoque claro, humano y basado en evidencia.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================
+       1. HEADER CON NAVEGACIÓN
+  =============================== -->
+  <header class="header" id="header">
+    <div class="header__container">
+
+      <div class="header__brand">
+        <a href="#hero" class="header__name">Dr. Andrés Felipe Restrepo</a>
+        <span class="header__descriptor">Médico Internista</span>
+      </div>
+
+      <nav class="header__nav" id="headerNav">
+        <a href="#hero" class="header__nav-link">Inicio</a>
+        <a href="#presentacion" class="header__nav-link">Perfil</a>
+        <a href="#areas" class="header__nav-link">Servicios</a>
+        <a href="#contexto" class="header__nav-link">Contexto</a>
+        <a href="#info" class="header__nav-link">Contacto</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="https://wa.me/573167850234?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20consulta"
+           class="header__cta btn btn--sm"
+           target="_blank"
+           rel="noopener noreferrer">
+          Contactar
+        </a>
+        <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============================
+       2. HERO PRINCIPAL
+  =============================== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="./assets/hero_image.jpg" alt="Consultorio médico sobrio y profesional con escritorio, camilla y luz natural." class="hero__img" loading="eager">
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="hero__container">
+      <div class="hero__content">
+        <span class="hero__tag">Atención profesional en Medellín</span>
+        <h1 class="hero__title">Acompañamiento médico claro para cuidar su salud con criterio</h1>
+        <p class="hero__desc">Atención médica integral para adultos con un enfoque claro, humano y basado en evidencia.</p>
+        <div class="hero__actions">
+          <a href="https://wa.me/573167850234?text=Hola%2C%20quiero%20agendar%20una%20valoraci%C3%B3n%20con%20el%20Dr.%20Andr%C3%A9s%20Felipe%20Restrepo"
+             class="btn btn--primary"
+             target="_blank"
+             rel="noopener noreferrer">
+            Agendar valoración
+          </a>
+          <a href="https://www.google.com/maps?q=Consultorio+502,+Avenida+El+Poblado,+Medell%C3%ADn"
+             class="btn btn--outline"
+             target="_blank"
+             rel="noopener noreferrer">
+            Ver ubicación
+          </a>
+        </div>
+        <p class="hero__schedule">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Lunes a viernes, 8:00 a.m. – 5:00 p.m.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       3. PRESENTACIÓN PROFESIONAL
+  =============================== -->
+  <section class="about" id="presentacion">
+    <div class="about__container">
+      <div class="about__content reveal">
+        <span class="about__tag">Perfil profesional</span>
+        <h2 class="about__title">Experiencia clínica con trato claro y cercano</h2>
+        <p class="about__text">Soy médico internista y acompaño a pacientes adultos en procesos de valoración, seguimiento y toma de decisiones clínicas con un enfoque humano, estructurado y basado en evidencia. Mi objetivo es que cada paciente entienda su situación con claridad y cuente con orientación seria para avanzar con confianza.</p>
+        <div class="about__values">
+          <div class="about__value">
+            <svg class="about__value-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Atención centrada en el paciente</span>
+          </div>
+          <div class="about__value">
+            <svg class="about__value-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Evaluación integral y seguimiento</span>
+          </div>
+          <div class="about__value">
+            <svg class="about__value-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Comunicación clara y profesional</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__image reveal">
+        <img src="./assets/perfil_profesional.jpg" alt="Retrato profesional de médico internista en consultorio." loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       4. ÁREAS DE ATENCIÓN / SERVICIOS
+  =============================== -->
+  <section class="services" id="areas">
+    <div class="services__container">
+      <div class="services__header reveal">
+        <h2 class="services__title">Áreas de atención</h2>
+        <p class="services__subtitle">Servicios principales orientados a la valoración y seguimiento de pacientes adultos.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="services__card reveal" data-service>
+          <div class="services__card-img">
+            <img src="./assets/area_1.jpg" alt="Médico realizando una valoración clínica en consultorio." loading="lazy">
+          </div>
+          <h3 class="services__card-title">Valoración médica integral</h3>
+          <p class="services__card-text">Consulta enfocada en comprender síntomas, antecedentes y contexto clínico para orientar un plan de acción claro.</p>
+        </div>
+
+        <div class="services__card reveal" data-service>
+          <div class="services__card-img">
+            <img src="./assets/area_2.jpg" alt="Consulta médica de seguimiento con revisión de historia clínica y signos vitales." loading="lazy">
+          </div>
+          <h3 class="services__card-title">Seguimiento de enfermedades crónicas</h3>
+          <p class="services__card-text">Acompañamiento en control y seguimiento de hipertensión, diabetes, dislipidemia y otras condiciones frecuentes.</p>
+        </div>
+
+        <div class="services__card reveal" data-service>
+          <div class="services__card-img">
+            <img src="./assets/area_3.jpg" alt="Profesional de salud explicando resultados de exámenes a un paciente." loading="lazy">
+          </div>
+          <h3 class="services__card-title">Interpretación de exámenes y segunda opinión</h3>
+          <p class="services__card-text">Orientación profesional para entender resultados, aclarar dudas y tomar decisiones con mayor tranquilidad.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       5. CONTEXTO VISUAL / RESPALDO PROFESIONAL
+  =============================== -->
+  <section class="context" id="contexto">
+    <div class="context__container reveal">
+      <div class="context__content">
+        <span class="context__tag">Entorno de atención</span>
+        <h2 class="context__title">Un espacio diseñado para atender con calma, criterio y confianza</h2>
+        <p class="context__text">La experiencia de atención combina escucha, claridad y orientación profesional. El objetivo no es solo resolver una duda puntual, sino ofrecer una consulta que permita entender mejor la situación clínica y actuar con criterio.</p>
+      </div>
+      <div class="context__image">
+        <img src="./assets/contexto_profesional.jpg" alt="Consultorio médico moderno y ordenado con ambiente tranquilo." loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       6. ENCUÉNTREME
+  =============================== -->
+  <section class="info" id="info">
+    <div class="info__container">
+      <h2 class="info__title">Encuéntreme</h2>
+
+      <div class="info__layout">
+
+        <!-- Columna izquierda: datos de contacto -->
+        <div class="info__data">
+
+          <div class="info__group reveal">
+            <div class="info__group-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="info__group-body">
+              <h3 class="info__group-title">Ubicación</h3>
+              <p class="info__group-text">
+                Consultorio 502, Avenida El Poblado # 10-45<br>
+                El Poblado<br>
+                Medellín, Colombia
+              </p>
+            </div>
+          </div>
+
+          <div class="info__group reveal">
+            <div class="info__group-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="info__group-body">
+              <h3 class="info__group-title">Disponibilidad</h3>
+              <p class="info__group-text info__group-text--schedule">Lunes a viernes: 8:00 a.m. – 5:00 p.m.
+Sábados: 8:00 a.m. – 12:00 m.
+Domingos: no disponible</p>
+            </div>
+          </div>
+
+          <div class="info__group reveal">
+            <div class="info__group-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="info__group-body">
+              <h3 class="info__group-title">Contacto</h3>
+              <div class="info__contacts">
+                <a href="https://wa.me/573167850234" class="info__contact-link" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.347 0-4.518-.802-6.237-2.147l-.364-.303-3.176 1.064 1.064-3.176-.303-.364A9.958 9.958 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+                  WhatsApp
+                </a>
+                <a href="tel:316 785 0234" class="info__contact-link">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  316 785 0234
+                </a>
+                <a href="mailto:contacto@drandresrestrepo.com" class="info__contact-link">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  contacto@drandresrestrepo.com
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.google.com/maps?q=Consultorio+502,+Avenida+El+Poblado+10-45,+Medell%C3%ADn" class="btn btn--primary info__btn-map" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Ver ubicación
+          </a>
+
+        </div>
+
+        <!-- Columna derecha: mapa -->
+        <div class="info__map">
+          <iframe src="https://www.google.com/maps?q=Consultorio+502,+Avenida+El+Poblado+10-45,+Medell%C3%ADn&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       7. CTA FINAL
+  =============================== -->
+  <section class="cta-final" id="cta-final">
+    <div class="cta-final__container reveal">
+      <h2 class="cta-final__title">¿Desea agendar una valoración?</h2>
+      <p class="cta-final__text">Escríbame por WhatsApp para resolver sus dudas iniciales y coordinar su cita de forma directa.</p>
+      <div class="cta-final__actions">
+        <a href="https://wa.me/573167850234?text=Hola%2C%20quiero%20agendar%20una%20valoraci%C3%B3n%20m%C3%A9dica"
+           class="btn btn--primary btn--lg"
+           target="_blank"
+           rel="noopener noreferrer">
+          Agendar por WhatsApp
+        </a>
+
+        <a href="https://www.google.com/maps?q=Consultorio+502,+Avenida+El+Poblado+10-45,+Medell%C3%ADn"
+           class="btn btn--outline-light"
+           target="_blank"
+           rel="noopener noreferrer">
+          Ver ubicación
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       8. FOOTER
+  =============================== -->
+  <footer class="footer" id="footer">
+    <div class="footer__container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="footer__name">Dr. Andrés Felipe Restrepo</span>
+          <span class="footer__descriptor">Médico Internista</span>
+        </div>
+        <div class="footer__details">
+          <p>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Consultorio 502, El Poblado
+          </p>
+          <p>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Lunes a viernes, 8:00 a.m. – 5:00 p.m.
+          </p>
+          <p>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            316 785 0234
+          </p>
+        </div>
+        <div class="footer__social">
+          <a href="https://instagram.com/dr.andresrestrepo" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://facebook.com/drandresrestrepo" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; <span id="currentYear">2026
+NOTAS
+1. Este archivo sirve como demo ficticio para probar la plantilla Essential Profesionales Comercial.
+2. Las imágenes deben guardarse en /assets/ con los nombres exactos definidos en la guía.
+3. El número de WhatsApp se dejó con código de país porque la plantilla usa enlaces tipo wa.me.
+4. Si algún proyecto no usa redes sociales, los enlaces pueden dejarse vacíos o ajustarse según la implementación final.</span> Dr. Andrés Felipe Restrepo. Todos los derechos reservados.</p>
+        <p class="footer__credit">
+          Desarrollado por
+          <a href="https://wa.me/573005171856" target="_blank" rel="noopener noreferrer">Step Up Business Solutions</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Año actual
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const headerNav = document.getElementById('headerNav');
+    
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      headerNav.classList.toggle('open');
+    });
+
+    // Close menu when nav link is clicked
+    document.querySelectorAll('.header__nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        headerNav.classList.remove('open');
+      });
+    });
+
+    // Intersection Observer for reveal animations
+    const revealElements = document.querySelectorAll('.reveal');
+    
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Active nav link based on scroll position
+    const navLinks = document.querySelectorAll('.header__nav-link');
+    const sections = document.querySelectorAll('section[id]');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        
+        if (scrollY >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').slice(1) === current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
